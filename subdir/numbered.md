@@ -1,9 +1,11 @@
+% Experimentation Part - II
+
 # Numbered List
 
-1 Computer Science Enthusiast
-1 Enjoy *trekking*, reading books on latest technology
-  1 Many other hobbies include **cycling**
-    1 Cycling is a fuel efficient way of commuting
+1. Computer Science Enthusiast
+1. Enjoy *trekking*, reading books on latest technology
+  1. Many other hobbies include **cycling**
+    1. Cycling is a fuel efficient way of commuting
 
 # Numbered list with a Special Marker
 
