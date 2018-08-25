@@ -20,9 +20,10 @@ I can refer to the above point of Europe (@eu).
 
 ## Block-quotes
 
- > We want to refer to this text so
- > putting it into block quote
- This is a good example
+> We want to refer to this text so
+> putting it into block quote
+
+This is a good example
 
 ## Inline-quotes
 
