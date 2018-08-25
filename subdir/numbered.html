@@ -95,12 +95,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 <h1 id="numbered-list-with-a-special-marker">Numbered list with a Special Marker</h1>
 <ol class="example" type="1">
-<li>Asia continent</li>
-<li>North America continent</li>
-<li>Europe continent</li>
-<li>…Rest to be Filled Later…</li>
+<li><p>Asia continent</p></li>
+<li><p>North America continent</p></li>
+<li><p>Europe continent</p></li>
+<li><p>…Rest to be Filled Later…</p></li>
 </ol>
-<p>I can refer to the above point of Europe (3).</p>
+<p>I can refer to the above point of Europe (3). Only, if using pandoc I convert this .md file to another .md file with output type -t as gfm.</p>
 <h1 id="quotes">Quotes</h1>
 <h2 id="block-quotes">Block-quotes</h2>
 <blockquote>
@@ -112,6 +112,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1 id="programming-language-syntax-highlighting">Programming Language Syntax Highlighting</h1>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb1-1" data-line-number="1">a <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>]</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">squaring <span class="op">=</span> [x <span class="op">*</span> x <span class="cf">for</span> x <span class="kw">in</span> a]</a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode java"><code class="sourceCode java"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="bu">System</span>.<span class="fu">out</span>.<span class="fu">println</span>(<span class="st">&quot;Hello World&quot;</span>);</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode cpp"><code class="sourceCode cpp"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="dt">int</span> var = <span class="dv">10</span>, sum = <span class="dv">0</span>;</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="cf">for</span> (<span class="dt">int</span> i=<span class="dv">0</span> ; i&lt;var; i++) {</a>
+<a class="sourceLine" id="cb3-3" data-line-number="3">    sum += i;</a>
+<a class="sourceLine" id="cb3-4" data-line-number="4">}</a></code></pre></div>
 <h1 id="tables">Tables</h1>
 <table>
 <thead>

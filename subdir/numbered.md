@@ -10,11 +10,16 @@
 # Numbered list with a Special Marker
 
 (@as) Asia continent
+
 (@na) North America continent
+
 (@eu) Europe continent
+
 (@re) ...Rest to be Filled Later...
 
-I can refer to the above point of Europe (@eu).
+
+I can refer to the above point of Europe (@eu). Only, if using pandoc I convert this .md file
+to another .md file with output type -t as gfm.
 
 # Quotes
 
@@ -34,6 +39,17 @@ This is an `inline-quote`
 ```python
 a = [1, 2, 3]
 squaring = [x * x for x in a]
+```
+
+```java
+System.out.println("Hello World");
+```
+
+```cpp
+int var = 10, sum = 0;
+for (int i=0 ; i<var; i++) {
+    sum += i;
+}
 ```
 
 # Tables
