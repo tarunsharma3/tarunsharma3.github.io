@@ -14,7 +14,7 @@ This blog is a pursuit by me to decouple the concept from implementation for lar
 
 ## What to Expect?
 
-These articles shall give a "tip-of-the-iceberg" kind of introduction to some concise and elegant programming paradigms and solutions to some real-world problem. At the end of each exercise you should have gained reasonable grasp on **"Problem Modelling"**, **"Survey of Candidate Solutions"**, **"Solution Design and Implementation"** pertaining to the real-world problem addressed by that exercise. This is discussed in detail in the [link].
+These articles shall give a "tip-of-the-iceberg" kind of introduction to some concise and elegant programming paradigms and solutions to some real-world problem. At the end of each exercise you should have gained reasonable grasp on **"Problem Modelling"**, **"Survey of Candidate Solutions"**, **"Solution Design and Implementation"** pertaining to the real-world problem addressed by that exercise. This is discussed in detail in the [link](articles/phases-of-prob-solve.md).
 
 ## Style of Writing?
 
